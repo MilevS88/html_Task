@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Описание бага</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #3586d7;
+        }
+    </style>
+</head>
+    <tr>
+        <th style="border: 1px solid black;"><table style="border: 1px solid black; border-collapse: collapse;">
+    <tr>
+        <th style="border: 1px solid black;">Номер</th>
+        <th style="border: 1px solid black;">Краткое описание</th>
+        <th style="border: 1px solid black;">Шаги</th>
+        <th style="border: 1px solid black;">Серьёзность</th>
+        <th style="border: 1px solid black;">ОР</th>
+        <th style="border: 1px solid black;">ФР</th>
+
+    </tr>
+    <tr>
+        <td style="border: 1px solid black;">1</td>
+        <td style="border: 1px solid black;">Неправильное сообщение при попытке авторизоваться с незаполненными полями логина/пароля</td>
+        <td style="border: 1px solid black;"> 
+            <ol>
+                <li>Открыть вкладку https://omni.top-academy.ru/</li>
+                <li>Нажать на кнопку "Войти"</li>
+            </ol>
+        </td>
+        <td style="border: 1px solid black;">minor</td>
+        <td style="border: 1px solid black;">Появилось в правом верхнем углу сообщение об неверных действиях пользователя "Необходими заполнить Логин и Пароль"</td>
+        <td style="border: 1px solid black;">Появилось в правом верхнем углу сообщение об неверных действиях пользователя "Необходими заполнить Пароль"</td>
+    </tr>
+</table>
+</body>
+</html>
